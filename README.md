@@ -88,9 +88,3 @@ This highlights the importance of training-inference consistency in deep learnin
 - Real-time video stream evaluation
 - Edge deployment optimization
 - Condition-specific preprocessing pipelines
-
-
-## Authors
-- Aaditya Singh
-- Sreeya Anne
-- Mudit Punetha
