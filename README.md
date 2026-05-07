@@ -74,6 +74,12 @@ Detection performance was then compared against the original images.
 | Derained (256×256)   | 0.509   |
 | Derained (512×512)   | 0.690   |
 
+## Rain Restoration Comparison
+
+| Original | Derained 512×512 | Derained 256×256 |
+|---|---|---|
+| ![](images/Original.jpg) | ![](images/Derain_512x512.jpg) | ![](images/Derain_256x256.jpg) |
+
 ### Key Insight
 Although Restormer improved visual image quality, detection accuracy did not improve consistently due to:
 - distribution shift
@@ -81,10 +87,18 @@ Although Restormer improved visual image quality, detection accuracy did not imp
 
 This highlights the importance of training-inference consistency in deep learning systems.
 
+## Detection Output
 
-## Future Improvements
-- Joint training of restoration + detection models
-- Fine-grained traffic sign classification
-- Real-time video stream evaluation
-- Edge deployment optimization
-- Condition-specific preprocessing pipelines
+Traffic sign detection under adverse weather conditions using YOLOv8.
+![Detection Output](images/Test.png)
+
+### Original Rain-Affected Image
+![Original](images/Original.jpg)
+
+### Restormer Output (512×512)
+![Derained 512x512 image](images/Derain_512x512.jpg)
+
+### Restormer Output (256×256)
+![Derained 256x256 image](images/Derain_256x256.jpg)
+
+
