@@ -84,7 +84,7 @@ Detection performance was then compared against the original images.
 </tr>
 
 <tr>
-<td><img src="images/Original.jpg" width="350"></td>
+<td><img src="images/Original.jpg"></td>
 <td><img src="images/Derain_512x512.jpg" width="350"></td>
 <td><img src="images/Derain_256x256.jpg" width="350"></td>
 </tr>
